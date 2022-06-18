@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScriptで作れるミニゲーム</title>
+  <link rel="stylesheet" href="../static/css/styeles.css" th:href="@{/css/styeles.css}">
+  <link rel="stylesheet" href="../static/css/typing.css" th:href="@{/css/typing.css}">
+</head>
+
+<body>
+  <h1>あなたのタイピングはどのくらい？</h1>
+  <h2>さあ！さっそく遊んでみよう！！</h2>
+
+  <div class="main">
+    <p id="target"></p>
+    <p id="result"></p>
+  </div>
+
+  <p class="btn" id="start">Click or Typing Space to start!</p>
+
+  <h2>レベルを選ぼう！！「<span id="current_level">現在のレベル： なし</span>」</h2>
+  <div class="select_level">
+    <div id="lv1">Level 1</div>
+    <div id="lv2">Level 2</div>
+    <div id="lv3">Level 3</div>  
+  </div>
+
+  <script src="../static/js/typing.js" th:src="@{/js/yping.js}"></script>
+</body>
+
+</html>
