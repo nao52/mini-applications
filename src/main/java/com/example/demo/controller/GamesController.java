@@ -11,4 +11,9 @@ public class GamesController {
 	public String showTopPage() {
 		return "index";
 	}
+	
+	@RequestMapping("/omikuji")
+	public String showOmikuji() {
+		return "omikuji";
+	}
 }
