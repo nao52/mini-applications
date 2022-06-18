@@ -12,8 +12,14 @@ public class GamesController {
 		return "index";
 	}
 	
+	@RequestMapping("/omikuji")
+	public String showOmikuji() {
+		return "omikuji";
+	}
+	
 	@RequestMapping("/typing")
 	public String showTyping() {
 		return "typing";
 	}
+	
 }
