@@ -1,0 +1,53 @@
+body {
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  background: #efefef;
+}
+
+p {
+  margin: 0;
+}
+
+.btn {
+  font-size: 32px;
+  letter-spacing: .1em;
+  width: 1000px;
+  height: 200px;
+  line-height: 200px;
+  margin: 50px auto;
+  cursor: pointer;
+  background: #CCFFFF;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+
+#target {
+  font-size: 48px;
+  letter-spacing: .1em;
+  height: 250px;
+  line-height: 250px;
+}
+
+#result {
+  font-size: 48px;
+}
+
+.select_level {
+  display: flex;
+  width: 800px;
+  padding: 0 100px;
+  margin: 0 auto;
+  justify-content: space-between;
+  font-size: 30px;
+  padding-top: 20px;
+
+  /* border: solid; */
+}
+
+.select_level div {
+  cursor: pointer;
+
+  /* border: solid; */
+}

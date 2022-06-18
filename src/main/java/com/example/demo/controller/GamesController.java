@@ -11,4 +11,9 @@ public class GamesController {
 	public String showTopPage() {
 		return "index";
 	}
+	
+	@RequestMapping("/typing")
+	public String showTyping() {
+		return "typing";
+	}
 }
