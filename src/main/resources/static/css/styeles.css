@@ -5,3 +5,8 @@ h2,
 p {
   text-align: center;
 }
+
+.toTop {
+  text-align: right;
+  margin-right: 30px;
+}
