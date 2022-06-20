@@ -10,12 +10,14 @@
 
 <body>
   <h1>ドキドキ！お金稼ぎゲーム！！</h1>
+  <p class="toTop"><a href="index.html" th:href="@{/}">トップページへ</a></p>
   <div class="main">
     <div class="btn" id="btn1">?</div>
     <div id="status">
-      <p>あなたの現在の所持金は・・・</p>
+      <p id="money_status">あなたの現在の所持金は・・・</p>
       <h2><span id="money">0</span>円</h2>
       <div class="btn" id="btn2">ゲーム終了！！</div>
+      <div class="btn" id="btn3">リトライ！！</div>
     </div>
   </div>
 
