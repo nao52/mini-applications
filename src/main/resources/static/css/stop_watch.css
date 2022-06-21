@@ -1,0 +1,32 @@
+.main {
+  height: 500px;
+  width: 1000px;
+  border: solid;
+  margin: 0 auto;
+}
+
+.timer {
+  font-size: 40px;
+  height: 300px;
+  line-height: 300px;
+  width: 500px;
+  margin: 30px auto 0;
+  text-align: center;
+
+  border: solid;
+}
+
+.btn {
+  display: block;
+  font-size: 40px;
+  margin: 30px auto 0;
+  cursor: pointer;
+}
+
+.target_time {
+  font-size: 24px;
+}
+
+.disappear {
+  display: none;
+}
