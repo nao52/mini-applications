@@ -22,4 +22,9 @@ public class GamesController {
 		return "typing";
 	}
 	
+	@RequestMapping("/stopWatch")
+	public String showStopWatch() {
+		return "stop_watch";
+	}
+	
 }
