@@ -8,15 +8,22 @@ p {
   margin: 0;
 }
 
+.main {
+  height: 200px;
+  width: 1000px;
+  margin: 0 auto;
+  border: solid;
+}
+
 .btn {
   font-size: 32px;
   letter-spacing: .1em;
   width: 1000px;
-  height: 200px;
-  line-height: 200px;
-  margin: 50px auto;
+  height: 80px;
+  line-height: 80px;
+  margin: 30px auto;
   cursor: pointer;
-  background: #CCFFFF;
+  opacity: 0.5;
 }
 
 .btn:hover {
@@ -26,12 +33,13 @@ p {
 #target {
   font-size: 48px;
   letter-spacing: .1em;
-  height: 250px;
-  line-height: 250px;
+  height: 200px;
+  line-height: 200px;
 }
 
 #result {
-  font-size: 48px;
+  font-size: 40px;
+  margin-top: 20px;
 }
 
 .select_level {
@@ -42,12 +50,33 @@ p {
   justify-content: space-between;
   font-size: 30px;
   padding-top: 20px;
-
-  /* border: solid; */
 }
 
 .select_level div {
   cursor: pointer;
+}
 
-  /* border: solid; */
+.count_down {
+  display: none;
+  height: 200px;
+  line-height: 200px;
+  width: 100px;
+  margin: 0 auto;
+  font-size: 50px;
+}
+
+.footer {
+  background: #DDDDDD;
+  height: 140px;
+  width: 1000px;
+  padding-top: 5px;
+  margin: 0 auto;
+}
+
+.disappear {
+  display: none;
+}
+
+.current {
+  display: block;
 }

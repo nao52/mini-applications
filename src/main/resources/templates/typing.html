@@ -11,19 +11,26 @@
 <body>
   <h1>あなたのタイピングはどのくらい？</h1>
   <h2>さあ！さっそく遊んでみよう！！</h2>
+  <p class="toTop"><a href="index.html" th:href="@{/}">トップページへ</a></p>
 
   <div class="main">
-    <p id="target"></p>
-    <p id="result"></p>
+    <p class="count_down">3</p>
+    <p class="count_down">2</p>
+    <p class="count_down">1</p>
+    <p id="target" class="disappear"></p>
   </div>
+
+  <p id="result"></p>
 
   <p class="btn" id="start">Click or Typing Space to start!</p>
 
-  <h2>レベルを選ぼう！！「<span id="current_level">現在のレベル： なし</span>」</h2>
-  <div class="select_level">
-    <div id="lv1">Level 1</div>
-    <div id="lv2">Level 2</div>
-    <div id="lv3">Level 3</div>
+  <div class="footer">
+    <h2>レベルを選ぼう！！「<span id="current_level">現在のレベル： なし</span>」</h2>
+    <div class="select_level">
+      <div id="lv1">Level 1</div>
+      <div id="lv2">Level 2</div>
+      <div id="lv3">Level 3</div>
+    </div>
   </div>
 
   <script src="../static/js/typing.js" th:src="@{/js/typing.js}"></script>
