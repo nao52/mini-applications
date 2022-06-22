@@ -27,4 +27,9 @@ public class GamesController {
 		return "stop_watch";
 	}
 	
+	@RequestMapping("/quiz")
+	public String showQuiz() {
+		return "quiz";
+	}
+	
 }
