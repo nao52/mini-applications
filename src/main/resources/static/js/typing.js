@@ -163,14 +163,28 @@
   });
 
   document.getElementById('lv1').addEventListener('click', () => {
+    if (isPlaying === true || isCounting === true) {
+      return;
+    }
+
     level = 1
     currentLevel.textContent = `現在のレベル： ${level}`
   });
+
   document.getElementById('lv2').addEventListener('click', () => {
+    if (isPlaying === true || isCounting === true) {
+      return;
+    }
+
     level = 2
     currentLevel.textContent = `現在のレベル： ${level}`
   });
+
   document.getElementById('lv3').addEventListener('click', () => {
+    if (isPlaying === true || isCounting === true) {
+      return;
+    }
+
     level = 3
     currentLevel.textContent = `現在のレベル： ${level}`
   });
