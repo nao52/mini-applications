@@ -4,11 +4,35 @@
 <head>
   <meta charset="UTF-8">
   <title>JavaScriptで作れるミニゲーム</title>
+  <link rel="stylesheet" href="../static/css/styeles.css" th:href="@{/css/styeles.css}">
   <link rel="stylesheet" href="../static/css/quiz.css" th:href="@{/css/quiz.css}">
 </head>
 
 <body>
+  <h1>いくつわかるかな？３択クイズ！！</h1>
+  <p class="toTop"><a href="index.html" th:href="@{/}">トップページへ</a></p>
+
+  <section class="container">
+    
+    <p id="start">さっそくやってみる！！</p>
+
+    <div id="running" class="hidden">
+      <p id="question"></p>
+      <ul id="choices"></ul>
+      <div id="btn" class="disabled">Next</div>
   
+      <section id="result" class="hidden">
+        <p></p>
+        <a href="">Replay?</a>
+      </section>
+    </div>
+
+  </section>
+
+  <section id="explain" class="hidden">
+    <h1>答えの解説</h1>
+    <p></p>
+  </section>
 
   <script src="../static/js/quiz.js" th:src="@{/js/quiz.js}"></script>
 </body>
