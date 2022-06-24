@@ -32,4 +32,9 @@ public class GamesController {
 		return "quiz";
 	}
 	
+	@RequestMapping("/slideshow")
+	public String slideshow() {
+		return "slide_show";
+	}
+	
 }
